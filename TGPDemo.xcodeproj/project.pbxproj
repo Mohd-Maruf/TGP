@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0541D92664CA0300E89ADF /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0541D72664CA0300E89ADF /* HomeCollectionViewCell.swift */; };
+		4C0541DA2664CA0300E89ADF /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0541D82664CA0300E89ADF /* HomeCollectionViewCell.xib */; };
 		4CC010A62662400F00E14897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC010A52662400F00E14897 /* AppDelegate.swift */; };
 		4CC010A82662400F00E14897 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC010A72662400F00E14897 /* SceneDelegate.swift */; };
-		4CC010AA2662400F00E14897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC010A92662400F00E14897 /* ViewController.swift */; };
 		4CC010AD2662400F00E14897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010AB2662400F00E14897 /* Main.storyboard */; };
 		4CC010AF2662401200E14897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010AE2662401200E14897 /* Assets.xcassets */; };
 		4CC010B22662401200E14897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010B02662401200E14897 /* LaunchScreen.storyboard */; };
 		4CC010BD2662401200E14897 /* TGPDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC010BC2662401200E14897 /* TGPDemoTests.swift */; };
 		4CC010C82662401200E14897 /* TGPDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC010C72662401200E14897 /* TGPDemoUITests.swift */; };
+		4CC010DA2662413000E14897 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC010D92662413000E14897 /* RegisterViewController.swift */; };
+		4CC010DD2662460E00E14897 /* ORDesinables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC010DC2662460E00E14897 /* ORDesinables.swift */; };
+		4CC010F2266246C000E14897 /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010DF266246BD00E14897 /* Barlow-Light.ttf */; };
+		4CC010F3266246C000E14897 /* Barlow-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010E0266246BD00E14897 /* Barlow-ThinItalic.ttf */; };
+		4CC010F4266246C000E14897 /* Barlow-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010E1266246BE00E14897 /* Barlow-Italic.ttf */; };
+		4CC010F5266246C000E14897 /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010E2266246BE00E14897 /* Barlow-Bold.ttf */; };
+		4CC010F6266246C000E14897 /* Barlow-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010E3266246BE00E14897 /* Barlow-ExtraBold.ttf */; };
+		4CC010F7266246C000E14897 /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010E4266246BE00E14897 /* Barlow-SemiBold.ttf */; };
+		4CC010F8266246C000E14897 /* Barlow-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010E5266246BE00E14897 /* Barlow-SemiBoldItalic.ttf */; };
+		4CC010F9266246C000E14897 /* Barlow-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010E6266246BE00E14897 /* Barlow-BlackItalic.ttf */; };
+		4CC010FA266246C000E14897 /* Barlow-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010E7266246BE00E14897 /* Barlow-ExtraBoldItalic.ttf */; };
+		4CC010FB266246C000E14897 /* Barlow-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010E8266246BF00E14897 /* Barlow-ExtraLightItalic.ttf */; };
+		4CC010FC266246C000E14897 /* Barlow-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010E9266246BF00E14897 /* Barlow-MediumItalic.ttf */; };
+		4CC010FD266246C000E14897 /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010EA266246BF00E14897 /* Barlow-Regular.ttf */; };
+		4CC010FE266246C000E14897 /* Barlow-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010EB266246BF00E14897 /* Barlow-Thin.ttf */; };
+		4CC010FF266246C000E14897 /* Barlow-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010EC266246BF00E14897 /* Barlow-Black.ttf */; };
+		4CC01100266246C000E14897 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010ED266246BF00E14897 /* OFL.txt */; };
+		4CC01101266246C000E14897 /* Barlow-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010EE266246BF00E14897 /* Barlow-BoldItalic.ttf */; };
+		4CC01102266246C000E14897 /* Barlow-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010EF266246BF00E14897 /* Barlow-LightItalic.ttf */; };
+		4CC01103266246C000E14897 /* Barlow-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010F0266246C000E14897 /* Barlow-ExtraLight.ttf */; };
+		4CC01104266246C000E14897 /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CC010F1266246C000E14897 /* Barlow-Medium.ttf */; };
+		4CC011082662488600E14897 /* RegisterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC011062662488600E14897 /* RegisterTableViewCell.swift */; };
+		4CC011092662488600E14897 /* RegisterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC011072662488600E14897 /* RegisterTableViewCell.xib */; };
+		4CFF07D12663FF1300B24DF4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF07D02663FF1300B24DF4 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +60,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C0541D72664CA0300E89ADF /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		4C0541D82664CA0300E89ADF /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
 		4CC010A22662400F00E14897 /* TGPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC010A52662400F00E14897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CC010A72662400F00E14897 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4CC010A92662400F00E14897 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CC010AC2662400F00E14897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CC010AE2662401200E14897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC010B12662401200E14897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +75,30 @@
 		4CC010C32662401200E14897 /* TGPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TGPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC010C72662401200E14897 /* TGPDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGPDemoUITests.swift; sourceTree = "<group>"; };
 		4CC010C92662401200E14897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC010D92662413000E14897 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4CC010DC2662460E00E14897 /* ORDesinables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ORDesinables.swift; sourceTree = "<group>"; };
+		4CC010DF266246BD00E14897 /* Barlow-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Light.ttf"; sourceTree = "<group>"; };
+		4CC010E0266246BD00E14897 /* Barlow-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4CC010E1266246BE00E14897 /* Barlow-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Italic.ttf"; sourceTree = "<group>"; };
+		4CC010E2266246BE00E14897 /* Barlow-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Bold.ttf"; sourceTree = "<group>"; };
+		4CC010E3266246BE00E14897 /* Barlow-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4CC010E4266246BE00E14897 /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-SemiBold.ttf"; sourceTree = "<group>"; };
+		4CC010E5266246BE00E14897 /* Barlow-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		4CC010E6266246BE00E14897 /* Barlow-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4CC010E7266246BE00E14897 /* Barlow-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4CC010E8266246BF00E14897 /* Barlow-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		4CC010E9266246BF00E14897 /* Barlow-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4CC010EA266246BF00E14897 /* Barlow-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Regular.ttf"; sourceTree = "<group>"; };
+		4CC010EB266246BF00E14897 /* Barlow-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Thin.ttf"; sourceTree = "<group>"; };
+		4CC010EC266246BF00E14897 /* Barlow-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Black.ttf"; sourceTree = "<group>"; };
+		4CC010ED266246BF00E14897 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		4CC010EE266246BF00E14897 /* Barlow-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4CC010EF266246BF00E14897 /* Barlow-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-LightItalic.ttf"; sourceTree = "<group>"; };
+		4CC010F0266246C000E14897 /* Barlow-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4CC010F1266246C000E14897 /* Barlow-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Medium.ttf"; sourceTree = "<group>"; };
+		4CC011062662488600E14897 /* RegisterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTableViewCell.swift; sourceTree = "<group>"; };
+		4CC011072662488600E14897 /* RegisterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterTableViewCell.xib; sourceTree = "<group>"; };
+		4CFF07D02663FF1300B24DF4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +149,12 @@
 		4CC010A42662400F00E14897 /* TGPDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4CC010A52662400F00E14897 /* AppDelegate.swift */,
-				4CC010A72662400F00E14897 /* SceneDelegate.swift */,
-				4CC010A92662400F00E14897 /* ViewController.swift */,
-				4CC010AB2662400F00E14897 /* Main.storyboard */,
-				4CC010AE2662401200E14897 /* Assets.xcassets */,
-				4CC010B02662401200E14897 /* LaunchScreen.storyboard */,
+				4CC010DB2662458900E14897 /* SupportFiles */,
+				4CC010D5266240D200E14897 /* AppDelegate */,
+				4CC010D82662410800E14897 /* ViewControllers */,
+				4CC011052662486C00E14897 /* ViewCells */,
+				4CC010D6266240E800E14897 /* Storyboard */,
+				4CC010D7266240F700E14897 /* Assets */,
 				4CC010B32662401200E14897 /* Info.plist */,
 			);
 			path = TGPDemo;
@@ -126,6 +176,87 @@
 				4CC010C92662401200E14897 /* Info.plist */,
 			);
 			path = TGPDemoUITests;
+			sourceTree = "<group>";
+		};
+		4CC010D5266240D200E14897 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4CC010A52662400F00E14897 /* AppDelegate.swift */,
+				4CC010A72662400F00E14897 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4CC010D6266240E800E14897 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4CC010AB2662400F00E14897 /* Main.storyboard */,
+				4CC010B02662401200E14897 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4CC010D7266240F700E14897 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4CC010AE2662401200E14897 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4CC010D82662410800E14897 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CC010D92662413000E14897 /* RegisterViewController.swift */,
+				4CFF07D02663FF1300B24DF4 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4CC010DB2662458900E14897 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4CC010DE266246B000E14897 /* Fonts */,
+				4CC010DC2662460E00E14897 /* ORDesinables.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		4CC010DE266246B000E14897 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4CC010EC266246BF00E14897 /* Barlow-Black.ttf */,
+				4CC010E6266246BE00E14897 /* Barlow-BlackItalic.ttf */,
+				4CC010E2266246BE00E14897 /* Barlow-Bold.ttf */,
+				4CC010EE266246BF00E14897 /* Barlow-BoldItalic.ttf */,
+				4CC010E3266246BE00E14897 /* Barlow-ExtraBold.ttf */,
+				4CC010E7266246BE00E14897 /* Barlow-ExtraBoldItalic.ttf */,
+				4CC010F0266246C000E14897 /* Barlow-ExtraLight.ttf */,
+				4CC010E8266246BF00E14897 /* Barlow-ExtraLightItalic.ttf */,
+				4CC010E1266246BE00E14897 /* Barlow-Italic.ttf */,
+				4CC010DF266246BD00E14897 /* Barlow-Light.ttf */,
+				4CC010EF266246BF00E14897 /* Barlow-LightItalic.ttf */,
+				4CC010F1266246C000E14897 /* Barlow-Medium.ttf */,
+				4CC010E9266246BF00E14897 /* Barlow-MediumItalic.ttf */,
+				4CC010EA266246BF00E14897 /* Barlow-Regular.ttf */,
+				4CC010E4266246BE00E14897 /* Barlow-SemiBold.ttf */,
+				4CC010E5266246BE00E14897 /* Barlow-SemiBoldItalic.ttf */,
+				4CC010EB266246BF00E14897 /* Barlow-Thin.ttf */,
+				4CC010E0266246BD00E14897 /* Barlow-ThinItalic.ttf */,
+				4CC010ED266246BF00E14897 /* OFL.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4CC011052662486C00E14897 /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4CC011062662488600E14897 /* RegisterTableViewCell.swift */,
+				4CC011072662488600E14897 /* RegisterTableViewCell.xib */,
+				4C0541D72664CA0300E89ADF /* HomeCollectionViewCell.swift */,
+				4C0541D82664CA0300E89ADF /* HomeCollectionViewCell.xib */,
+			);
+			path = ViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +363,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC010F5266246C000E14897 /* Barlow-Bold.ttf in Resources */,
+				4CC010F6266246C000E14897 /* Barlow-ExtraBold.ttf in Resources */,
+				4CC010FE266246C000E14897 /* Barlow-Thin.ttf in Resources */,
+				4CC010F2266246C000E14897 /* Barlow-Light.ttf in Resources */,
+				4CC01104266246C000E14897 /* Barlow-Medium.ttf in Resources */,
+				4CC010F9266246C000E14897 /* Barlow-BlackItalic.ttf in Resources */,
+				4CC010FC266246C000E14897 /* Barlow-MediumItalic.ttf in Resources */,
+				4CC01101266246C000E14897 /* Barlow-BoldItalic.ttf in Resources */,
 				4CC010B22662401200E14897 /* LaunchScreen.storyboard in Resources */,
+				4CC01102266246C000E14897 /* Barlow-LightItalic.ttf in Resources */,
+				4CC010FF266246C000E14897 /* Barlow-Black.ttf in Resources */,
 				4CC010AF2662401200E14897 /* Assets.xcassets in Resources */,
+				4CC010FD266246C000E14897 /* Barlow-Regular.ttf in Resources */,
 				4CC010AD2662400F00E14897 /* Main.storyboard in Resources */,
+				4CC010F8266246C000E14897 /* Barlow-SemiBoldItalic.ttf in Resources */,
+				4CC01100266246C000E14897 /* OFL.txt in Resources */,
+				4CC010F3266246C000E14897 /* Barlow-ThinItalic.ttf in Resources */,
+				4CC010FB266246C000E14897 /* Barlow-ExtraLightItalic.ttf in Resources */,
+				4CC01103266246C000E14897 /* Barlow-ExtraLight.ttf in Resources */,
+				4C0541DA2664CA0300E89ADF /* HomeCollectionViewCell.xib in Resources */,
+				4CC010FA266246C000E14897 /* Barlow-ExtraBoldItalic.ttf in Resources */,
+				4CC011092662488600E14897 /* RegisterTableViewCell.xib in Resources */,
+				4CC010F7266246C000E14897 /* Barlow-SemiBold.ttf in Resources */,
+				4CC010F4266246C000E14897 /* Barlow-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +411,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC010AA2662400F00E14897 /* ViewController.swift in Sources */,
+				4C0541D92664CA0300E89ADF /* HomeCollectionViewCell.swift in Sources */,
+				4CC010DD2662460E00E14897 /* ORDesinables.swift in Sources */,
+				4CC010DA2662413000E14897 /* RegisterViewController.swift in Sources */,
+				4CC011082662488600E14897 /* RegisterTableViewCell.swift in Sources */,
 				4CC010A62662400F00E14897 /* AppDelegate.swift in Sources */,
 				4CC010A82662400F00E14897 /* SceneDelegate.swift in Sources */,
+				4CFF07D12663FF1300B24DF4 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
